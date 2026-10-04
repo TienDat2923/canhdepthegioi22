@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thư viện ảnh cảnh đẹp thế giới</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="addTabIndex()">
+
+    <header>
+        <h1>Thư viện ảnh cảnh đẹp thế giới</h1>
+        <p>Khám phá những địa danh nổi tiếng và tuyệt đẹp trên thế giới</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Những địa danh nổi tiếng</h2>
+
+            <div class="gallery">
+
+                <figure>
+                    <img
+                        src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80"
+                        alt="Tháp Eiffel nổi tiếng tại Paris, Pháp"
+                        onmouseover="upDate(this)"
+                        onmouseleave="unDo()"
+                        onfocus="upDate(this)"
+                        onblur="unDo()">
+                    <figcaption>Tháp Eiffel - Pháp</figcaption>
+                </figure>
+
+                <figure>
+                    <img
+                        src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=900&q=80"
+                        alt="Những ngôi nhà trắng và mái vòm xanh trên đảo Santorini, Hy Lạp"
+                        onmouseover="upDate(this)"
+                        onmouseleave="unDo()"
+                        onfocus="upDate(this)"
+                        onblur="unDo()">
+                    <figcaption>Santorini - Hy Lạp</figcaption>
+                </figure>
+
+                <figure>
+                    <img
+                        src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=900&q=80"
+                        alt="Phong cảnh thiên nhiên xanh tươi tại Bali, Indonesia"
+                        onmouseover="upDate(this)"
+                        onmouseleave="unDo()"
+                        onfocus="upDate(this)"
+                        onblur="unDo()">
+                    <figcaption>Bali - Indonesia</figcaption>
+                </figure>
+
+                <figure>
+                    <img
+                        src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=900&q=80"
+                        alt="Con đường và kiến trúc truyền thống tại Kyoto, Nhật Bản"
+                        onmouseover="upDate(this)"
+                        onmouseleave="unDo()"
+                        onfocus="upDate(this)"
+                        onblur="unDo()">
+                    <figcaption>Kyoto - Nhật Bản</figcaption>
+                </figure>
+
+                <figure>
+                    <img
+                        src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=900&q=80"
+                        alt="Dãy núi Alps hùng vĩ tại Thụy Sĩ"
+                        onmouseover="upDate(this)"
+                        onmouseleave="unDo()"
+                        onfocus="upDate(this)"
+                        onblur="unDo()">
+                    <figcaption>Dãy Alps - Thụy Sĩ</figcaption>
+                </figure>
+
+                <figure>
+                    <img
+                        src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80"
+                        alt="Bãi biển nhiệt đới với nước biển xanh trong"
+                        onmouseover="upDate(this)"
+                        onmouseleave="unDo()"
+                        onfocus="upDate(this)"
+                        onblur="unDo()">
+                    <figcaption>Maldives</figcaption>
+                </figure>
+
+            </div>
+        </section>
+    </main>
+
+    <div id="image" class="preview">
+        Di chuyển chuột hoặc dùng bàn phím để xem thông tin hình ảnh.
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
